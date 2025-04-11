@@ -11,7 +11,7 @@
 
 - **Responsive Design**  
   Seamless experience across desktop and mobile with a responsive layout.
-## 🧰 Technologies Used
+## Technologies Used
 
 - **React** – For building UI components.
 - **CSS** – For styling and layout.
@@ -24,7 +24,7 @@
 Big thanks to [TheMealDB API](https://www.themealdb.com/) for providing the recipe data that powers this application.
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### Start the Application
 
