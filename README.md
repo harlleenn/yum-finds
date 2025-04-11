@@ -25,19 +25,17 @@ npm install
 npm start
 Visit: http://localhost:3000
 
- How to Use
-Search Recipes: Enter ingredients in the search bar.
+## 🧰 Technologies Used
 
-Explore Results: Browse the suggested meals.
+- **React** – For building UI components.
+- **CSS** – For styling and layout.
+- **TheMealDB API** – To fetch recipe data (ingredients, instructions, images).
 
-View Recipe Details: Click on a recipe to see full instructions, ingredients
+---
 
-🧰 Technologies Used
-React – For building UI components.
-CSS – For styling and layout.
-TheMealDB API – To fetch recipe data (ingredients, instructions, images).
+## 🙌 Acknowledgments
 
-🙌 Acknowledgments
-Big thanks to TheMealDB API for providing the recipe data that powers this application.
+Big thanks to [TheMealDB API](https://www.themealdb.com/) for providing the recipe data that powers this application.
+
 
 
