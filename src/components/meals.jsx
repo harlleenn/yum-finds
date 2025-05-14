@@ -57,9 +57,10 @@ useEffect(() =>{
 },[userInput])
     return (
         <div className='the-main-box'>
-           <div>
-            <p>POPULAR FOOD RECIPIES YOU MAY LIKE</p>
-           </div>
+          <div className="section-heading">
+                <p> Popular Food Recipes You May Like</p>
+        </div>
+
 
                 {!userInput&& (
                     <div className='the-main-box'>

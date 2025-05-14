@@ -1,68 +1,111 @@
-
-.input{
+/* Centering the input box */
+.input {
   display: flex;
   justify-content: center;
-}
-.input-value{
-  border-radius: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.filter-container{
-  display: grid;
-  gap:20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
- background-color: rgb(167, 179, 175);
- margin-top:40px
-}
-.filter-items{
-  background-color: rgb(13, 161, 13);
-  border-radius: 30px;
-  padding: 10px;
-
-}
- .meals{    margin-top: 10px;            /*  inclued just the image conatiner of the food item */
-  background-color: rgba(139, 174, 132, 0.323);
-  justify-content: center;
-  display: flex;
-  border-radius: 20px;
-  transition: transform 0.3s ease-in-out , background-color 0.3s ease-in-out;
-}
-.meals:hover{
-  background-color: aliceblue;
-  transform: scale(1.05);
-}
-.the-main-box{
-  background-color: rgb(33, 163, 24);
-  padding: 20px;
-  width: 100%;
-  height: 100%;
-}
-.dishes-nameArea{
-  justify-content: flex-start;
-  display: flex;
-color: rgb(4, 4, 7);
-font-family: 'Times New Roman', Times, serif;
-font-size: larger;
-}
-.no-results{
-  background-color: aquamarine;
-  color: black;
-  display: flex;
-  justify-content: center;
-}
-.images{
-  width: 450px;
-  border-radius: 30px;
-}
-.meal-name{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.splide-images:hover{
-  transform: scale(1.05) ;
   
 }
-.splide-images{
-  transition: transform 0.3s ease-in-out ;
+
+.input-value {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+.input-value:focus {
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.4);
+}
+
+
+.the-main-box {
+  background-color: #8dd765; 
+  padding: 30px;
+  width: 100%;
+  min-height: 100vh;
+  color: #2d2d2d;
+}
+
+.filter-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  background-color: transparent;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+
+.filter-items {
+  background-color: #bde1a4; 
+  border-radius: 30px;
+  padding: 15px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+.meals {
+  margin-top: 10px;
+  background-color: rgba(139, 174, 132, 0.2);
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.meals:hover {
+  background-color: #eaf6ff;
+  transform: scale(1.05);
+}
+
+
+.dishes-nameArea {
+  display: flex;
+  justify-content: flex-start;
+  color: #030307;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+
+.no-results {
+  background-color: #8dd765;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.images {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+.meal-name {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2e2e2e;
+  margin-top: 10px;
+}
+
+
+.splide-images {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.splide-images:hover {
+  transform: scale(1.05);
 }
