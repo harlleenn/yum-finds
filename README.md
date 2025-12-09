@@ -1,6 +1,8 @@
 # Yum-finds
 
 **Yum-finds** is a dynamic web application designed to help users discover and explore a wide variety of recipes. Whether you're seeking inspiration for your next meal or searching for a recipe based on specific ingredients you have at home, Recipe Finder simplifies the process and makes cooking more enjoyable.
+---
+**Live Demo https://yumfinds.netlify.app/**
 
 ---
 
